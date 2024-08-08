@@ -1,2 +1,2 @@
-# osscomp
+# osscom
 Open source software components
