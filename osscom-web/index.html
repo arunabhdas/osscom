@@ -25,7 +25,7 @@
       rel="stylesheet"
       href="https://unpkg.com/franken-wc@latest/dist/css/zinc.min.css"
     />
-
+    <script src="//unpkg.com/alpinejs" defer></script>
     <script>
       if (
         localStorage.getItem("color-theme") === "dark" ||
@@ -47,7 +47,7 @@
   <body class="bg-background text-foreground">
     <!-- START CODING HERE -->
     <div class="uk-flex uk-flex-column uk-flex-middle uk-flex-center">
-      <h1 class="uk-heading-small uk-margin">Oss Com</h1>
+      <h1 class="uk-heading-small uk-margin">Oss Com Demo</h1>
       <button class="uk-icon-button" id="theme-toggle">
         <svg
           id="theme-toggle-light-icon"
@@ -88,6 +88,49 @@
           <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
         </svg>
       </button>
+      <div x-data="{tweet: 'Say something!'}">
+        <div class="uk-width-1-2@m uk-card">
+            <div class="uk-card-header">
+              <h3 class="uk-card-title">Create project</h3>
+              <p class="uk-margin-small-top uk-text-small text-muted-foreground">
+                Deploy your new project in one-click.
+              </p>
+            </div>
+            <div class="uk-card-body uk-padding-remove-top uk-padding-remove-bottom">
+              <div class="">
+                <label class="uk-form-label" for="name">Name</label>
+                <input
+                  x-model="tweet"
+                  class="uk-input uk-margin-small-top"
+                  id="name"
+                  type="text"
+                  aria-describedby="name-help-block"
+                  placeholder=""
+                />
+                <div x-text="tweet" id="name-help-block" class="uk-form-help uk-margin-small-top">
+                  The name of your project.
+                </div>
+              </div>
+          
+              <div class="uk-margin">
+                <label class="uk-form-label" for="framework">Framework</label>
+                <select
+                  class="uk-select uk-margin-small-top"
+                  name="framework"
+                  id="framework"
+                >
+                  <option value="sveltekit">Sveltekit</option>
+                  <option value="astro">Astro</option>
+                </select>
+              </div>
+            </div>
+          
+            <div class="uk-card-footer uk-flex uk-flex-between">
+              <button class="uk-button uk-button-default">Cancel</button>
+              <button class="uk-button uk-button-primary">Deploy</button>
+            </div>
+          </div>
+      </div>
     </div>
     <!-- END -->
     <script>
