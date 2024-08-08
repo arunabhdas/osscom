@@ -3,56 +3,42 @@ Open source software components
 
 ## Steps
 
-Step 1: Initialize Astro
-
-```
-==> npm init astro
+==> npm create svelte@latest
 Need to install the following packages:
-create-astro@4.8.1
+create-svelte@6.3.5
 Ok to proceed? (y) y
 
- astro   Launch sequence initiated.
+create-svelte version 6.3.5
 
-   dir   Where should we create your new project?
-         ./regular-resonance
+┌  Welcome to SvelteKit!
+│
+◇  Where should we create your project?
+│  osscom-frontend
+│
+◇  Which Svelte app template?
+│  Skeleton project
+│
+◇  Add type checking with TypeScript?
+│  Yes, using TypeScript syntax
+│
+◇  Select additional options (use arrow keys/space bar)
+│  Add ESLint for code linting, Add Prettier for code formatting, Add Playwright for browser testing, Try the Svelte 5
+preview (unstable!)
+│
+└  Your project is ready!
 
-  tmpl   How would you like to start your new project?
-         Empty
+Install more integrations with:
+  npx svelte-add
 
-    ts   Do you plan to write TypeScript?
-         Yes
+Next steps:
+  1: cd osscom-frontend
+  2: npm install
+  3: git init && git add -A && git commit -m "Initial commit" (optional)
+  4: npm run dev -- --open
 
-   use   How strict should TypeScript be?
-         Strict
+To close the dev server, hit Ctrl-C
 
-  deps   Install dependencies?
-         Yes
-
-   git   Initialize a new git repository?
-         No
-      ◼  Sounds good! You can always run git init manually.
-
-      ✔  Project initialized!
-         ■ Template copied
-         ■ TypeScript customized
-         ■ Dependencies installed
-
-  next   Liftoff confirmed. Explore your project!
-
-         Enter your project directory using cd ./regular-resonance 
-         Run npm run dev to start the dev server. CTRL+C to stop.
-         Add frameworks like react or tailwind using astro add.
-
-         Stuck? Join us at https://astro.build/chat
-
-╭─────╮  Houston:
-│ ◠ ◡ ◠  Good luck out there, astronaut! 🚀
-╰─────╯
-npm notice 
-npm notice New minor version of npm available! 10.2.4 -> 10.8.2
-npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
-npm notice Run npm install -g npm@10.8.2 to update!
-npm notice 
+Stuck? Visit us at https://svelte.dev/chat
 ```
 
 ## Directives
