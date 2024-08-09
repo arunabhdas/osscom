@@ -51,6 +51,7 @@ Stuck? Visit us at https://svelte.dev/chat
 * x-text
 * x-model
 * x-bind
+* x-init
 
 
 
