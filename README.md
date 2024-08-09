@@ -4,6 +4,8 @@ Open source software components
 ## Steps
 
 ==> npm create svelte@latest
+```
+==> npm create svelte@latest
 Need to install the following packages:
 create-svelte@6.3.5
 Ok to proceed? (y) y
@@ -41,7 +43,8 @@ To close the dev server, hit Ctrl-C
 Stuck? Visit us at https://svelte.dev/chat
 ```
 
-## Directives
+## AlpineJS Directives
+```
 
 * x-data
 * x-on
