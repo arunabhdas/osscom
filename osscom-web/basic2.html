@@ -23,9 +23,7 @@
                 font-family: InterVariable, sans-serif;
             }
         }
-        .red { color: red; }
-
-        .blue { color: blueviolet; }
+        .red { color: red }
     </style>
 
     <!-- For stability in production, it's recommended that you hardcode the latest version in the CDN link. -->
@@ -87,13 +85,7 @@
                         <label class="uk-form-label" for="name">Name</label>
                         <input x-model="tweet" class="uk-input uk-margin-small-top" id="name" type="text"
                             aria-describedby="name-help-block" placeholder="" />
-                        <div 
-                        x-text="tweet.length" 
-                        id="project-name" 
-                        class="uk-form-help uk-margin-small-top red" 
-                        aria-placeholder="Project Name"
-                        x-bind:class="tweet.length > 20 ? 'red' : 'blue'"
-                        >
+                        <div x-text="tweet" id="project-name" class="uk-form-help uk-margin-small-top red" aria-placeholder="Project Name">
                             
                         </div>
                     </div>
