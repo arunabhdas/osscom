@@ -166,8 +166,8 @@
                 </div>
 
                 <div class="uk-card-footer uk-flex" x-data="{ open: false}">
-                    <button class="uk-button uk-button-primary" @click="open = true">Show Dropdown</button>
-                    <div x-show="open">Dropdown Contents</div>
+                    <button class="uk-button uk-button-primary" @click="open = !open">Show Dropdown</button>
+                    <div x-show.transition.duration.2000ms="open" @click.away="open = false" @keydown.escape.window="open = false">Dropdown Contents</div>
                 </div>
             </div>
             <!-- END DROPDOWN CARD-->
