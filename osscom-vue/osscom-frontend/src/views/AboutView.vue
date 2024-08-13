@@ -8,12 +8,21 @@ const items = ref([
   {id: 3, label: "3 scroll list items"}
 ])
 
+const default_items = ref({
+  'item-1': {id: 1, label: "RecyclerView"},
+  'item-2': {id: 2, label: "ScrollView"},
+  'item-3': {id: 3, label: "ListView"}
+})
+
 </script>
 <template>
   <div class="about">
     <h1>List of components</h1>
     <ul>
-      <li v-for="{id, label} in items" :key="id">{{label}}</li>
+      <li v-for="({id, label}, index) in items" :key="id">
+        {{ index  }}
+        {{label}}
+      </li>
     </ul>
   </div>
 </template>
