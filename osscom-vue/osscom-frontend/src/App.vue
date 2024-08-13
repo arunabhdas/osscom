@@ -6,7 +6,7 @@ import HomeDefault from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="@/assets/osscom_logo.png" width="375" height="375" />
 
     <div class="wrapper">
       <HomeDefault msg="Welcome to OSSCom" />
