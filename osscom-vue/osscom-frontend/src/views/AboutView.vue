@@ -20,19 +20,21 @@ const newItemPriority = ref("low")
 
 const newItemDoneState = ref(false)
 
+const newItemHighPriority = ref(false)
+
 </script>
 <template>
   <div class="about">
     <h1>{{ header }}</h1>
     <input v-model.trim="newItem" type="text" placeholder="Add an item">
     newItemPriority
-    <select v-model="newItemPriority">
-      <option value="low">Low</option>
-      <option value="high">High</option>
-    </select>
     {{newItem}}
+    <label>
+      <input type="checkbox" v-model="newItemHighPriority">
+      High Priority
+    </label>
     <br/>
-    {{newItemPriority}}
+    {{newItemHighPriority}}
     <ul>
       <li v-for="({id, label}, index) in items" :key="id">
         {{label}}
