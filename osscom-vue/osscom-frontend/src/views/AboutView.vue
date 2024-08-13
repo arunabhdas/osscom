@@ -23,7 +23,14 @@ const newItemPriority = ref("low")
   <div class="about">
     <h1>{{ header }}</h1>
     <input v-model.trim="newItem" type="text" placeholder="Add an item">
+    newItemPriority
+    <select v-model="newItemPriority">
+      <option value="low">Low</option>
+      <option value="high">High</option>
+    </select>
     {{newItem}}
+    <br/>
+    {{newItemPriority}}
     <ul>
       <li v-for="({id, label}, index) in items" :key="id">
         {{label}}
