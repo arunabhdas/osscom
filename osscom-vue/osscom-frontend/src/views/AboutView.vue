@@ -13,7 +13,7 @@ const items = ref([
   <div class="about">
     <h1>List of components</h1>
     <ul>
-      <li v-for="item in items" :key="item.id">{{item.label}}</li>
+      <li v-for="{id, label} in items" :key="id">{{label}}</li>
     </ul>
   </div>
 </template>
