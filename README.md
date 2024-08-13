@@ -29,6 +29,10 @@ Done. Now run:
   npm run dev
 ```
 
+## Screenshots
+
+![Screenshot 0](https://raw.githubusercontent.com/arunabhdas/osscom/main/screenshots/osscom_0.png)
+![Screenshot 1](https://raw.githubusercontent.com/arunabhdas/osscom/main/screenshots/osscom_0.png)
 
 ## Steps
 
