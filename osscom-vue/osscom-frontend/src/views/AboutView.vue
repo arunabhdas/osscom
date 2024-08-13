@@ -18,6 +18,8 @@ const newItem = ref("")
 
 const newItemPriority = ref("low")
 
+const newItemDoneState = ref(false)
+
 </script>
 <template>
   <div class="about">
