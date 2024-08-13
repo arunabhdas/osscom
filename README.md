@@ -3,6 +3,35 @@ Open source software components
 
 ## Steps
 
+```
+==> npm create vue@latest
+
+Vue.js - The Progressive JavaScript Framework
+
+✔ Project name: … osscom-frontend
+✔ Add TypeScript? … No / Yes YES
+✔ Add JSX Support? … No / Yes YES
+✔ Add Vue Router for Single Page Application development? … No / Yes YES
+✔ Add Pinia for state management? … No / Yes YES
+✔ Add Vitest for Unit Testing? … No / Yes
+✔ Add an End-to-End Testing Solution? › Playwright
+✔ Add ESLint for code quality? … No / Yes YES
+✔ Add Prettier for code formatting? … No / Yes YES
+✔ Add Vue DevTools 7 extension for debugging? (experimental) … No / Yes YES
+
+Scaffolding project in /Users/coder/repos/arunabhdas/githubrepos/osscom/osscom-vue/osscom-frontend...
+
+Done. Now run:
+
+  cd osscom-frontend
+  npm install
+  npm run format
+  npm run dev
+```
+
+
+## Steps
+
 ==> npm create svelte@latest
 ```
 ==> npm create svelte@latest

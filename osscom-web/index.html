@@ -165,16 +165,27 @@
                     </div>
                 </div>
 
-                <div class="uk-card-footer uk-flex" x-data="{ open: false}">
-                    <button class="uk-button uk-button-primary" @click="open = !open">Show Dropdown</button>
+                <div class="uk-card-footer uk-flex" x-data="dropdown()">
+                    <button class="uk-button uk-button-primary" @click="showdropdown()">Show Dropdown</button>
                     <div x-show.transition.duration.2000ms="open" @click.away="open = false" @keydown.escape.window="open = false">Dropdown Contents</div>
                 </div>
             </div>
             <!-- END DROPDOWN CARD-->
 
+
         </div>
     </div>
     <!-- END -->
+    <script>
+        function dropdown() {
+            return {
+                open: false,
+                showdropdown() {
+                    this.open = true
+                }
+            }
+        }
+    </script>
     <script>
         var themeToggleBtn = document.getElementById("theme-toggle");
 
