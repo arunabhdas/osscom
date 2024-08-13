@@ -14,10 +14,16 @@ const default_items = ref({
   'item-3': {id: 3, label: "ListView"}
 })
 
+const newItem = ref("")
+
+
+
 </script>
 <template>
   <div class="about">
-    <h1>List of components</h1>
+    <h1>{{ header }}</h1>
+    <input v-model.trim="newItem" type="text" placeholder="Add an item">
+    {{newItem}}
     <ul>
       <li v-for="({id, label}, index) in items" :key="id">
         {{label}}
