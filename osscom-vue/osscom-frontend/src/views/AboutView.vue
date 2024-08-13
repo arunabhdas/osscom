@@ -3,9 +3,9 @@ import { ref } from 'vue'
 const header = ref('List of components')
 
 const items = ref([
-  "10 simple list items",
-  "5 tile list items",
-  "3 scroll list items"
+  {id: 1, label: "10 simple list items"},
+  {id: 2, label: "5 tile list items"},
+  {id: 3, label: "3 scroll list items"}
 ])
 
 </script>
@@ -13,7 +13,7 @@ const items = ref([
   <div class="about">
     <h1>List of components</h1>
     <ul>
-      <li v-for="item in items">{{item}}</li>
+      <li v-for="item in items" :key="item.id">{{item.label}}</li>
     </ul>
   </div>
 </template>
