@@ -16,7 +16,7 @@ const default_items = ref({
 
 const newItem = ref("")
 
-
+const newItemPriority = ref("low")
 
 </script>
 <template>
