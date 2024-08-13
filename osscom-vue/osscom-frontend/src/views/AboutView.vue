@@ -20,7 +20,6 @@ const default_items = ref({
     <h1>List of components</h1>
     <ul>
       <li v-for="({id, label}, index) in items" :key="id">
-        {{ index  }}
         {{label}}
       </li>
     </ul>
