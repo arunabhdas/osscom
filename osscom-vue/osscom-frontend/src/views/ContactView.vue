@@ -28,7 +28,12 @@ const newItemHighPriority = ref(false)
         <h1>{{ header }}</h1>
         <div class="add-item-form">
 
-            <input v-model.trim="newItem" type="text" placeholder="Add an item">
+            <input 
+                v-model.trim="newItem" 
+                v-on:keyup.enter="items.push({id: items.length + 1, label: newItem})" 
+                type="text" 
+                placeholder="Add an item"
+            >
             newItemPriority
             {{ newItem }}
             <label>
