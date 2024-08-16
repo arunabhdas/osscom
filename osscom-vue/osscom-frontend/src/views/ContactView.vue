@@ -26,6 +26,8 @@ const newItemHighPriority = ref(false)
 <template>
   <div class="contact">
     <h1>{{ header }}</h1>
+    <div class="add-item-form">
+
     <input v-model.trim="newItem" type="text" placeholder="Add an item">
     newItemPriority
     {{newItem}}
@@ -33,8 +35,9 @@ const newItemHighPriority = ref(false)
       <input type="checkbox" v-model="newItemHighPriority">
       High Priority
     </label>
+    <button class="btn btn-primary">Save</button>
     <br/>
-    {{newItemHighPriority}}
+    </div>
     <ul>
       <li v-for="({id, label}, index) in items" :key="id">
         {{label}}
