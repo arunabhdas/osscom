@@ -92,6 +92,10 @@ Install Nuxt ESLint
 npx nuxi module add eslint
 ```
 
+## Install Tailwind Nuxt
+
+- Install Tailwind CSS with NuxtJS from the steps outlined in https://tailwindcss.com/docs/guides/nuxtjs
+
 ## Screenshots
 
 ![Screenshot 0](https://raw.githubusercontent.com/arunabhdas/osscom/main/screenshots/osscom_0.png)
