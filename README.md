@@ -110,6 +110,35 @@ npx nuxi module add eslint
 
 - Install Nuxt ShadCN from the steps outlined in https://www.shadcn-vue.com/docs/installation/nuxt
 
+
+## Add ShadCN-Vue 
+
+```
+==> npx shadcn-vue@latest init
+Need to install the following packages:
+shadcn-vue@0.10.5
+Ok to proceed? (y) y
+
+✔ Would you like to use TypeScript? (recommended)? … no / yes YES
+✔ Which framework are you using? › Nuxt Nuxt
+✔ Which style would you like to use? › Default Default
+✔ Which color would you like to use as base color? › Slate Slate
+✔ Where is your tsconfig.json file? … .nuxt/tsconfig.json .nuxt/tsconfig.json
+✔ Where is your global CSS file? (this file will be overwritten) … assets/css/main.css assets/css/main.css
+✔ Would you like to use CSS variables for colors? … no / yes YES
+✔ Where is your tailwind.config located? (this file will be overwritten) … tailwind.config.js tailwind.config.js
+✔ Configure the import alias for components: … @/components
+✔ Configure the import alias for utils: … @/lib/utils
+✔ Write configuration to components.json. Proceed? … yes YES
+                                                                                                         12:18:22 AM
+✔ Writing components.json...
+✔ Initializing project...
+✔ Installing dependencies...
+                                                                                                         12:18:27 AM
+ℹ Success! Project initialization completed.    
+
+```
+
 ## Screenshots
 
 ![Screenshot 0](https://raw.githubusercontent.com/arunabhdas/osscom/main/screenshots/osscom_0.png)
