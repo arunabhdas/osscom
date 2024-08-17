@@ -29,6 +29,22 @@ Done. Now run:
   npm run dev
 ```
 
+## Add NuxtUI
+
+- Add NuxtUI to the project from the steps outlined in https://ui.nuxt.com/getting-started/installation
+
+```
+cd osscom-vue
+
+cd osscom-frontend
+
+npx nuxi@latest module add ui
+
+npx nuxi@latest init -t ui
+
+```
+
+
 ## Screenshots
 
 ![Screenshot 0](https://raw.githubusercontent.com/arunabhdas/osscom/main/screenshots/osscom_0.png)
