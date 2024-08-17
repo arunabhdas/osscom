@@ -117,7 +117,7 @@ npx nuxi module add eslint
 ==> npx shadcn-vue@latest init
 Need to install the following packages:
 shadcn-vue@0.10.5
-Ok to proceed? (y) y
+Ok to proceed? (y) y 
 
 ✔ Would you like to use TypeScript? (recommended)? … no / yes YES
 ✔ Which framework are you using? › Nuxt Nuxt
@@ -136,6 +136,31 @@ Ok to proceed? (y) y
 ✔ Installing dependencies...
                                                                                                          12:18:27 AM
 ℹ Success! Project initialization completed.    
+
+```
+
+## Add ShadCN components
+
+```
+npx shadcn-vue@latest add button
+
+npx shadcn-vue@latest add badge
+
+npx shadcn-vue@latest add card
+
+npx shadcn-vue@latest add dropdown-menu
+
+npx shadcn-vue@latest add input
+
+npx shadcn-vue@latest add breadcrumb
+
+npx shadcn-vue@latest add sheet
+
+npx shadcn-vue@latest add table
+
+npx shadcn-vue@latest add tabs
+
+npx shadcn-vue@latest add tooltip
 
 ```
 
