@@ -42,6 +42,45 @@ npx nuxi@latest module add ui
 
 ```
 
+## Initialize NuxtJS 
+
+- Initialize NuxtJS project 
+```
+==> npx nuxi@latest init osscom
+
+✔ Which package manager would you like to use?
+npm
+◐ Installing dependencies...                                                                  11:32:31 PM
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+npm warn deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated gauge@3.0.2: This package is no longer supported.
+
+> postinstall
+> nuxt prepare
+
+✔ Types generated in .nuxt                                                                   11:32:52 PM
+
+added 642 packages, and audited 644 packages in 21s
+
+128 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+✔ Installation completed.                                                                    11:32:52 PM
+
+✔ Initialize git repository?
+No
+                                                                                              11:32:57 PM
+✨ Nuxt project has been created with the v3 template. Next steps:
+ › cd osscom                                                                                  11:32:57 PM
+ › Start development server with npm run dev 
+ ```
+
 
 ## Screenshots
 
