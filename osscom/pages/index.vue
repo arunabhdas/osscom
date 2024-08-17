@@ -1,4 +1,7 @@
 <script setup lang="ts">
+
+
+const colorMode = useColorMode()
 import {
   CircleUser,
   File,
@@ -17,6 +20,7 @@ import {
 } from 'lucide-vue-next'
 
 import { Badge } from '@/components/ui/badge'
+import { Icon } from '@iconify/vue'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
@@ -261,6 +265,17 @@ import {
             <DropdownMenuSeparator />
             <DropdownMenuItem>Logout</DropdownMenuItem>
           </DropdownMenuContent>
+          <DropdownMenuContent align="end">
+          <DropdownMenuItem @click="colorMode.preference = 'light'">
+            Light
+          </DropdownMenuItem>
+          <DropdownMenuItem @click="colorMode.preference = 'dark'">
+            Dark
+          </DropdownMenuItem>
+          <DropdownMenuItem @click="colorMode.preference = 'system'">
+            System
+          </DropdownMenuItem>
+        </DropdownMenuContent>
         </DropdownMenu>
       </header>
       <main class="grid flex-1 items-start gap-4 p-4 sm:px-6 sm:py-0 md:gap-8">
@@ -401,7 +416,7 @@ import {
                           alt="Product image"
                           class="aspect-square rounded-md object-cover"
                           height="64"
-                          src="./placeholder.svg"
+                          src="/favicon.ico"
                           width="64"
                         >
                       </TableCell>
@@ -448,7 +463,7 @@ import {
                           alt="Product image"
                           class="aspect-square rounded-md object-cover"
                           height="64"
-                          src="./placeholder.svg"
+                          src="/favicon.ico"
                           width="64"
                         >
                       </TableCell>
@@ -495,7 +510,7 @@ import {
                           alt="Product image"
                           class="aspect-square rounded-md object-cover"
                           height="64"
-                          src="./placeholder.svg"
+                          src="/favicon.ico"
                           width="64"
                         >
                       </TableCell>
@@ -542,7 +557,7 @@ import {
                           alt="Product image"
                           class="aspect-square rounded-md object-cover"
                           height="64"
-                          src="./placeholder.svg"
+                          src="/favicon.ico"
                           width="64"
                         >
                       </TableCell>
@@ -589,7 +604,7 @@ import {
                           alt="Product image"
                           class="aspect-square rounded-md object-cover"
                           height="64"
-                          src="./placeholder.svg"
+                          src="/favicon.ico"
                           width="64"
                         >
                       </TableCell>

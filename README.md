@@ -164,10 +164,15 @@ npx shadcn-vue@latest add tooltip
 
 ```
 
+## Add dark mode
+
+- Add dark mode using the steps outlined in https://www.shadcn-vue.com/docs/dark-mode/nuxt.html
+
 ## Screenshots
 
+![Screenshot 2](https://raw.githubusercontent.com/arunabhdas/osscom/main/screenshots/osscom_2.png)
+![Screenshot 1](https://raw.githubusercontent.com/arunabhdas/osscom/main/screenshots/osscom_1.png)
 ![Screenshot 0](https://raw.githubusercontent.com/arunabhdas/osscom/main/screenshots/osscom_0.png)
-![Screenshot 1](https://raw.githubusercontent.com/arunabhdas/osscom/main/screenshots/osscom_0.png)
 
 ## Steps
 
@@ -227,6 +232,8 @@ Stuck? Visit us at https://svelte.dev/chat
 
 
 ## Resources
+
+ShadCN Nuxt - https://www.youtube.com/watch?v=YErzRvxpwrg
 
 AlpineJS - https://youtu.be/4c8dpZN0rqM?si=iFkOLfGj9xfVPKLF
 
