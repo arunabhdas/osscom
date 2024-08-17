@@ -96,6 +96,11 @@ npx nuxi module add eslint
 
 - Install Tailwind CSS with NuxtJS from the steps outlined in https://tailwindcss.com/docs/guides/nuxtjs
 
+
+## Install Nuxt ShadCN 
+
+- Install Nuxt ShadCN from the steps outlined in https://www.shadcn-vue.com/docs/installation/nuxt
+
 ## Screenshots
 
 ![Screenshot 0](https://raw.githubusercontent.com/arunabhdas/osscom/main/screenshots/osscom_0.png)
