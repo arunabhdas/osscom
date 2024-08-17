@@ -401,7 +401,7 @@ import {
                           alt="Product image"
                           class="aspect-square rounded-md object-cover"
                           height="64"
-                          src="/placeholder.svg"
+                          src="./placeholder.svg"
                           width="64"
                         >
                       </TableCell>
@@ -448,7 +448,7 @@ import {
                           alt="Product image"
                           class="aspect-square rounded-md object-cover"
                           height="64"
-                          src="/placeholder.svg"
+                          src="./placeholder.svg"
                           width="64"
                         >
                       </TableCell>
@@ -495,7 +495,7 @@ import {
                           alt="Product image"
                           class="aspect-square rounded-md object-cover"
                           height="64"
-                          src="/placeholder.svg"
+                          src="./placeholder.svg"
                           width="64"
                         >
                       </TableCell>
@@ -542,7 +542,7 @@ import {
                           alt="Product image"
                           class="aspect-square rounded-md object-cover"
                           height="64"
-                          src="/placeholder.svg"
+                          src="./placeholder.svg"
                           width="64"
                         >
                       </TableCell>
@@ -589,7 +589,7 @@ import {
                           alt="Product image"
                           class="aspect-square rounded-md object-cover"
                           height="64"
-                          src="/placeholder.svg"
+                          src="./placeholder.svg"
                           width="64"
                         >
                       </TableCell>
