@@ -82,6 +82,16 @@ No
  ```
 
 
+## Install Nuxt ESLint
+
+- https://eslint.nuxt.com/packages/module
+
+Install Nuxt ESLint
+
+```
+npx nuxi module add eslint
+```
+
 ## Screenshots
 
 ![Screenshot 0](https://raw.githubusercontent.com/arunabhdas/osscom/main/screenshots/osscom_0.png)
