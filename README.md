@@ -40,8 +40,6 @@ cd osscom-frontend
 
 npx nuxi@latest module add ui
 
-npx nuxi@latest init -t ui
-
 ```
 
 
