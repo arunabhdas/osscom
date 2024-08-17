@@ -1,6 +1,15 @@
 # osscom
 Open source software components
 
+## Develop
+
+```
+cd osscom
+
+npm run dev
+```
+
+
 ## Steps
 
 ```
