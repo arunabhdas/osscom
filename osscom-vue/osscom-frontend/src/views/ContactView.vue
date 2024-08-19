@@ -24,6 +24,7 @@ const newItemHighPriority = ref(false)
 
 const saveItem = () => {
     items.value.push({id: items.length + 1, label: newItem.value})
+    newItem.value = ""
 }
 </script>
 <template>
