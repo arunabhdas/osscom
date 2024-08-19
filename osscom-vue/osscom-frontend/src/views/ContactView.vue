@@ -27,7 +27,7 @@ const newItemHighPriority = ref(false)
     <div class="contact">
         <h1>{{ header }}</h1>
         <form class="add-item-form"
-         v-on:submit.prevent="items.push({id: items.length + 1, label: newItem})" 
+         @submit.prevent="items.push({id: items.length + 1, label: newItem})" 
         >
 
             <input 
