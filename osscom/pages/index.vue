@@ -1,5 +1,6 @@
 <script setup lang="ts">
 
+const loading = ref(false)
 
 const colorMode = useColorMode()
 import {
