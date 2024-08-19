@@ -235,6 +235,8 @@ Stuck? Visit us at https://svelte.dev/chat
 
 ShadCN Nuxt - https://www.youtube.com/watch?v=YErzRvxpwrg
 
+Nux3 @shadcn @TailwindLabs - https://youtu.be/Oomx3mAK0vs?si=Dc0upXQUHst7JkLy 
+
 AlpineJS - https://youtu.be/4c8dpZN0rqM?si=iFkOLfGj9xfVPKLF
 
 FrankenUI - https://github.com/franken-ui/ui 
