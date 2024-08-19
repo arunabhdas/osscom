@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>Default layout content</p>
+        <p>Sidebar</p>
         <slot/>
     </div>
 </template>
