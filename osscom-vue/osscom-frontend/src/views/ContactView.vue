@@ -22,12 +22,15 @@ const newItemDoneState = ref(false)
 
 const newItemHighPriority = ref(false)
 
+const saveItem = () => {
+    items.value.push({id: items.length + 1, label: newItem.value})
+}
 </script>
 <template>
     <div class="contact">
         <h1>{{ header }}</h1>
         <form class="add-item-form"
-         @submit.prevent="items.push({id: items.length + 1, label: newItem})" 
+         @submit.prevent="saveItem()" 
         >
 
             <input 
